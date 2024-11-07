@@ -1,14 +1,65 @@
+# Node.js
 node_modules/
-bundle.js
-npm-debug.log
-
-/.idea
-/public
-
+npm-debug.log*
+yarn-error.log
 .env
-.passport.js
 .DS_Store
 
-build/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# server
+/server/node_modules/
+server/.env
+
+# client
+/client/node_modules/
+client/build/
+client/.env.local
+client/.env.development.local
+client/.env.production.local
+client/.env.test.local
+
+# Build files
 dist/
-client/.parcel-cache
+build/
+
+# Testing
+/coverage
+*.lcov
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+Thumbs.db
+.DS_Store
+._*
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REACT environment variables
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Optional Jest cache
+/jest.config.js
+/.jest
